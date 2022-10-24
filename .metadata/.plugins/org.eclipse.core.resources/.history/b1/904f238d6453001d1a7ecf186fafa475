@@ -1,0 +1,19 @@
+import java.awt.GridLayout;
+
+import javax.swing.*;
+
+public class timetable{
+	public static void main(String a[]) {
+		JFrame frame;
+		frame=new JFrame("My Frist GUI");
+		frame.setSize(280, 300);
+		JButton teacher,student;
+		teacher = new JButton("Teacher");
+		student = new JButton("Student");
+		frame.add(teacher);
+		frame.add(student);
+		frame.setLayout(new GridLayout(1,1));
+		frame.setVisible(true);
+		
+	}
+}
